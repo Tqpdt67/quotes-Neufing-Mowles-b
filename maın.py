@@ -25,3 +25,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+elif choice == "4":
+    count = int(input("Enter the number of quotes to display: "))
+    display_quotes(quotes, count)
